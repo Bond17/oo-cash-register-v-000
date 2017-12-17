@@ -15,6 +15,10 @@ end
 
 def apply_discount
 if discount == 0
+  return "error no discount to apply"
+else
+
+end
 end
 
 def items
