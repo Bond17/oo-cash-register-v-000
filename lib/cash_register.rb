@@ -1,4 +1,4 @@
 
-class cash_register_spec
+class Cash_register
 
 end
