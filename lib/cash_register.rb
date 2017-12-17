@@ -18,7 +18,7 @@ if discount == 0
   return "There is no discount to apply."
 else
   self.total = self.total+self.discount
-  return "discount applied"
+  return "After the discount, the total comes to $#{self.total}."
 end
 end
 
