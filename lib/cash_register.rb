@@ -9,7 +9,9 @@ def initialize(discount= 0)
 end
 
 def add_item(title,price,quantity=1)
-@@items << title
+if quantity !=0
+  @@items << title
+end
 self.total += price*quantity
 end
 
