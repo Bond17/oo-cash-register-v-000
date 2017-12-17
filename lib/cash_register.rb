@@ -18,7 +18,7 @@ def apply_discount
 end
 
 def items
-@@items
+@@items.uniq
 end
 
 def void_last_transaction
