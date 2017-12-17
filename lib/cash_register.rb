@@ -17,7 +17,7 @@ def apply_discount
 if discount == 0
   return "error no discount to apply"
 else
-
+  self.total = self.total*self.discount
 end
 end
 
