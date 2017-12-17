@@ -25,7 +25,7 @@ end
 end
 
 def items
-@@items.uniq
+@items.uniq
 end
 
 def void_last_transaction
