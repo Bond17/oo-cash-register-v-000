@@ -12,6 +12,7 @@ def add_item(title,price,quantity=1)
 i =0
 while i <quantity do
   self.items << title
+  i +=1
 end
 
 self.total += price*quantity
