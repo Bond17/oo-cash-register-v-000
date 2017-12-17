@@ -14,7 +14,7 @@ while i <quantity do
   self.items << title
   i +=1
 end
-
+self.last_transaction = price*quantity
 self.total += price*quantity
 end
 
