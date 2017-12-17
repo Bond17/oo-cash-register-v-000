@@ -23,7 +23,7 @@ end
 end
 
 def items
-return self.items
+return @items
 end
 
 def void_last_transaction
