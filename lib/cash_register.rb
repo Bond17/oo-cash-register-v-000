@@ -18,6 +18,7 @@ if discount == 0
   return "error no discount to apply"
 else
   self.total = self.total*self.discount
+  return "discount applied"
 end
 end
 
