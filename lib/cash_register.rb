@@ -10,7 +10,7 @@ end
 
 def add_item(title,price,quantity=1)
 i =0
-while i <quantity
+while i <quantity do
   self.items << title
 end
 
